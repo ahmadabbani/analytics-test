@@ -233,6 +233,15 @@
     box.addEventListener("mouseleave", () => {
       img.src = defaultImagePath;
     });
+
+    //for mobile
+    box.addEventListener("touchstart", () => {
+      img.src = hoverImagePath;
+    });
+
+    box.addEventListener("touchend", () => {
+      img.src = defaultImagePath;
+    });
   });
 
   // Articles swiper

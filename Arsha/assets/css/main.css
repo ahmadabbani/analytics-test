@@ -1,15 +1,3 @@
-/**
-* Template Name: Arsha
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 @font-face {
   font-family: 'Calibri Bold';
@@ -831,14 +819,46 @@ section,
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+@media (max-width: 992px) {
+  .hero-text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 1rem;
+    z-index: 1;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero p {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    width: 80%;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
 @media (max-width: 640px) {
   .hero h1 {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 36px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -846,6 +866,17 @@ section,
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-text {
+    width: 95%;
+  }
+
+  .hero p {
+    line-height: 22px;
+    text-align: left;
   }
 }
 
@@ -1185,20 +1216,36 @@ section,
   transform: translateX(-1px);
 }
 
-@media (max-width: 580px) {
-  .swiper-container {
-    padding: 0 0.5rem;
+
+@media (max-width: 1200px) {
+  .blog-area .container .single-blog {
+    min-height: 300px;
+  }
+
+  .swiper-container .swiper-button-next {
+    top: 30%;
+  }
+
+  .swiper-container .swiper-button-prev {
+    top: 30%;
   }
 }
 
 @media (max-width: 992px) {
+
+  .blog-area .container .single-blog {
+    min-height: 250px;
+  }
+
   .swiper-container .swiper-button-next {
-    right: 6%;
+    right: 14%;
+    top: 35%;
   }
 
   .swiper-container .swiper-button-prev {
-    left: 88%;
-    transform: translateX(-88%);
+    left: 80%;
+    transform: translateX(-80%);
+    top: 35%;
   }
 
   .blog-text h4 p {
@@ -1214,23 +1261,51 @@ section,
 
   .swiper-container .swiper-button-next {
     right: 15%;
-    top: 24%;
+
   }
 
   .swiper-container .swiper-button-prev {
     left: 15%;
     transform: translateX(-15%);
-    top: 24%;
   }
 }
 
 @media (max-width: 580px) {
+
+  .blog-area .container .single-blog {
+    padding-bottom: 2rem;
+  }
+
+  .swiper-container {
+    padding: 0 0.5rem;
+  }
+
   .blog-text h4 p {
     font-size: 18px;
   }
 
   .blog-text h4 a {
     font-size: 25px;
+  }
+
+  .swiper-container .swiper-button-next {
+    top: 26%;
+
+  }
+
+  .swiper-container .swiper-button-prev {
+    top: 26%;
+  }
+}
+
+@media (max-width: 430px) {
+  .swiper-container .swiper-button-next {
+    top: 30%;
+
+  }
+
+  .swiper-container .swiper-button-prev {
+    top: 30%;
   }
 }
 

@@ -766,7 +766,7 @@ ul {
 --------------------------------------------------------------*/
 .about-area {
   background-color: #f9f9f9;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 
 .single-well>a {
@@ -1323,11 +1323,11 @@ ul {
 
 @media (max-width: 992px) {
   .swiper-button-next {
-    right: 6%;
+    right: 14%;
   }
 
   .swiper-button-prev {
-    left: 88%;
+    left: 80.5%;
     transform: translateX(-88%);
   }
 
@@ -1342,25 +1342,69 @@ ul {
 
 @media (max-width: 768px) {
 
+  .blog-area .container .single-blog .single-blog-img img {
+    height: 180px;
+  }
+
   .swiper-button-next {
     right: 15%;
-    top: 24%;
+    top: 26.5%;
   }
 
   .swiper-button-prev {
     left: 15%;
     transform: translateX(-15%);
-    top: 24%;
+    top: 26.5%;
+  }
+
+  .single-blog .ready-btn {
+    bottom: 2.5rem;
   }
 }
 
 @media (max-width: 580px) {
+
+  .blog-area .container .single-blog .single-blog-img img {
+    height: auto;
+  }
+
+  .swiper-button-next {
+    top: 20%;
+    right: 10%;
+  }
+
+  .swiper-button-prev {
+    top: 20%;
+    left: 10%;
+  }
+
   .blog-text h4 p {
     font-size: 18px;
   }
 
   .blog-text h4 a {
     font-size: 25px;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .swiper-button-next {
+    top: 23%;
+  }
+
+  .swiper-button-prev {
+    top: 23%;
+  }
+}
+
+@media (max-width: 360px) {
+  .swiper-button-next {
+    top: 24%;
+  }
+
+  .swiper-button-prev {
+    top: 24%;
   }
 }
 
