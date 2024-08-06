@@ -265,24 +265,24 @@
     },
     {
       title: "Digital Marketing",
-      description: `We enhance your online presence through SEO to improve your website's visibility on search engines,
-       and content marketing to attract and engage your audience. Our social media marketing services manage profiles, create content,
+      description: `We enhance your online presence through SEO, to improve your website's visibility on search engines,
+       and content marketing, to attract and engage your audience. Our social media marketing services manage profiles, create content,
         and run ads on platforms like Facebook, Instagram, TikTok,
-       and LinkedIn. Additionally, we run paid ad campaigns on Google Ads and social media for maximum reach.`,
+       and LinkedIn. We also run paid ad campaigns on Google Ads and social media for maximum reach.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-2.jpg",
     },
     {
       title: "Website Development and Management",
-      description: `Our website development services include creating visually appealing and user-friendly websites tailored to your needs.
+      description: `Our website development services include creating visually appealing, and user-friendly websites tailored to your needs.
        We build and manage e-commerce solutions for seamless online shopping experiences, 
-      and provide regular updates and optimizations to ensure smooth and secure website performance.`,
+      and provide regular updates and optimizations to ensure smooth, and secure website performance.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-3.jpg",
     },
     {
       title: "Content Creation",
-      description: `We offer comprehensive content creation services including copywriting for websites, ads
+      description: `We offer comprehensive content creation services, including copywriting for websites, ads
       , brochures, and other marketing materials. Our graphic design services create visuals such as infographics,
        banners, and social media graphics, while our video production team produces promotional videos,
        explainer videos, and other multimedia content to effectively communicate your message.`,
@@ -291,9 +291,9 @@
     },
     {
       title: "Public Relations",
-      description: `Our public relations services include writing and distributing press releases to announce new products, services,
+      description: `Our public relations services include writing and distributing press releases, to announce new products, services,
        or company milestones. We build and maintain relationships with journalists and media outlets to ensure positive media coverage,
-       and handle communication during times of crisis to protect and manage your brand's reputation.`,
+       and handle communication during times of crisis, to protect and manage your brand's reputation.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-2.jpg",
     },
@@ -308,24 +308,24 @@
     {
       title: "Traditional Marketing",
       description: `Our traditional marketing services include creating print ads for magazines, newspapers,
-       and other media, developing commercials for television and radio, and designing billboards, banners,
+       and other media; developing commercials for television and radio, and designing billboards, banners,
        and other outdoor advertising materials to ensure comprehensive market coverage.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-1.jpg",
     },
     {
       title: "Analytics and Reporting",
-      description: `We monitor and analyze the performance of your marketing campaigns using advanced analytical tools.
+      description: `We monitor and analyze the performance of your marketing campaigns, using advanced analytical tools.
        Our reporting services provide regular reports on key metrics and insights,
-       guiding future marketing strategies and ensuring your campaigns are effective and aligned with your business goals.`,
+       guiding future marketing strategies, and ensuring your campaigns are effective and aligned with your business goals.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-2.jpg",
     },
     {
       title: "Consulting and Strategy",
       description: `Our consulting services include developing comprehensive marketing plans tailored to your business goals and budget.
-       We provide ongoing consultation and expert advice to adjust strategies based on market changes and business needs,
-       ensuring your marketing efforts are always on the right track.`,
+       We provide ongoing consultation and expert advice to adjust strategies based on market change and business needs,
+       ensuring that your marketing efforts are always on the right track.`,
       icon: "bi-briefcase",
       img: "../Analyticomms/assets/img/departments-3.jpg",
     },

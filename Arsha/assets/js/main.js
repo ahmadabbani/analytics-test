@@ -330,8 +330,10 @@
   const services = [
     {
       title: "Business Development and Planning Expertise",
-      description: `At Analytics, we excel at crafting tailored strategies to fuel your business's growth and success. Our seasoned consultants provide the insight and support needed to navigate challenges, seize opportunities, and unlock your full potential. Whether you're looking to define a clear business roadmap, optimise operations, or supercharge your marketing efforts, our expertise is your competitive advantage.
-       We measure our success by your success, and we're here to guide you every step of the way`,
+      description: `At Analytics, we excel at crafting tailored strategies to fuel your business's growth and success.
+       Our seasoned consultants provide the insights and support needed to navigate challenges, seize opportunities, and unlock your full potential.
+        Whether you're looking to define a clear business roadmap, optimize operations, or supercharge your marketing efforts, our expertise is your competitive advantage.
+       We measure our success by your success, and we're here to guide you every step of the way.`,
       icon: "bi-briefcase",
       img: "../Arsha/assets/img/service1.jpg",
     },
@@ -345,18 +347,20 @@
     {
       title: "Legal Research and Support",
       description: `Navigating the legal landscape can be a daunting task, but our legal research services are here to support you.
-       We conduct extensive research on diverse legal areas, ranging from constitutional law to international regulations, providing you with authoritative insights and analysis. Our publications cover key legal developments,
+       We conduct extensive research on diverse legal areas, ranging from constitutional law to international regulations,
+        providing you with authoritative insights and analysis. Our publications cover key legal developments,
        case studies, and legal opinions, helping you stay abreast of the latest legal trends and precedents.
-Analytics Team also provides legal support and consultation through our lawyers.`,
+       The Analytics Team also provides legal support and consultation through our lawyers.`,
       icon: "bi-briefcase",
       img: "../Arsha/assets/img/service3.jpg",
     },
     {
       title: "Publications",
       description: `Our high-quality publications are designed to inform and inspire. We deliver well-researched articles,
-       whitepapers,and reports on sociopolitical and legal topics, offering nuanced perspectives and thought-provoking insights. Whether you're an academic, legal professional, policymaker, or simply someone interested in staying informed, our publications
+       whitepapers, and reports on sociopolitical and legal topics, offering nuanced perspectives and thought-provoking insights.
+        Whether you're an academic, legal professional, policymaker, or simply someone interested in staying informed, our publications
         are a valuable resource for expanding your knowledge and contributing to meaningful discussions.
-Trust our expertise in Business Planning and development, research and publications to keep you informed, empowered, and engaged with the world around you. Stay ahead of the curve with our comprehensive insights and thought leadership.`,
+Trust our expertise in business planning and development, research, and publications to keep you informed, empowered, and engaged with the world around you. Stay ahead of the curve with our comprehensive insights and thought leadership.`,
       icon: "bi-briefcase",
       img: "../Arsha/assets/img/service4.jpg",
     },

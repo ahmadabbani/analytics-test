@@ -301,7 +301,8 @@
     },
     {
       title: "Capacity Building and Trainings",
-      description: `We offer capacity-building programs and training sessions tailored to the needs of organizations. Our trainings cover a range of topics, including project management, data analysis, and organizational development, empowering teams to perform at their best.`,
+      description: `We offer capacity-building programs and training sessions tailored to the needs of organizations.
+       Our training covers a range of topics, including project management, data analysis, and organizational development, empowering teams to perform at their best.`,
       icon: "bi-briefcase",
       img: "../Nova/assets/img/cards-5.jpg",
     },
@@ -331,7 +332,8 @@
     },
     {
       title: "Grant Writing and Fundraising",
-      description: `We support organizations in securing funding through grant writing and fundraising strategies. Our services include identifying funding opportunities, proposal writing, and donor engagement.`,
+      description: `We support organizations in securing funding through effective grant writing and fundraising strategies.
+       Our services include identifying funding opportunities, crafting compelling proposals, and engaging with donors.`,
       icon: "bi-briefcase",
       img: "../Nova/assets/img/cards-1.jpg",
     },
