@@ -1597,6 +1597,7 @@ section,
 .training-img #training-img {
   max-width: 100%;
   width: 100%;
+  height: 450px;
   object-fit: cover;
 }
 
@@ -1634,9 +1635,42 @@ section,
   animation: lineExpand 2s ease-in-out forwards;
 }
 
+#contact-us {
+  margin-top: 3rem;
+  padding-left: 2rem;
+  border-left: 7px solid #1b2950;
+}
+
+#contact-title span {
+  color: green;
+}
+
+.contact-us {
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  background-color: #1b2950;
+  border: none;
+  color: #fff;
+}
+
+.contact-us:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .training-img #training-img {
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .training-details {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .training-info {
+    margin-bottom: 2rem !important;
   }
 
   .header-bottom h1 {
@@ -1645,6 +1679,16 @@ section,
 
   .slider-content .back-btn {
     font-size: 14px;
+  }
+
+  #contact-us {
+    margin-top: 1rem;
+    border-left: 4px solid #1b2950;
+  }
+
+  .contact-us {
+    padding: 10px 15px;
+    font-size: 1rem;
   }
 }
 
@@ -1655,6 +1699,11 @@ section,
 
   .header-bottom h1 {
     font-size: 1.3rem;
+  }
+
+  #contact-us {
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
   }
 }
 

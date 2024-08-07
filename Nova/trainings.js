@@ -256,6 +256,11 @@ function updateTrainingDetailsInHtml(trainingData) {
       trainingData.numberOfParticipants;
     document.getElementById("training-description").textContent =
       trainingData.description;
+    document
+      .getElementById("contact-btn")
+      .addEventListener("click", function () {
+        sendWhatsAppMessage(trainingData.title);
+      });
   } else {
     displayPageNotFound();
   }
@@ -269,4 +274,14 @@ function displayPageNotFound() {
 
   document.getElementById("portfolio-details").textContent =
     "The training you are looking for does not exist.";
+}
+
+//Whatsapp message
+function sendWhatsAppMessage(productName) {
+  const phoneNumber = "96170119027";
+  const message = `Hello! I'm interested in learning more about "${productName}" training. Could you please provide more details? Thank you!.`;
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+  window.open(whatsappURL, "_blank");
 }
