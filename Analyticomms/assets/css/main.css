@@ -646,32 +646,34 @@ p {
 #preloader {
   position: fixed;
   inset: 0;
-  z-index: 999999;
+  z-index: 9999;
   overflow: hidden;
-  background: var(--background-color);
-  transition: all 0.6s ease-out;
+  background-color: #fff;
 }
 
 #preloader:before {
-  content: "";
+  content: url("../img/icon\ analytics\ 1.png") " " url("../img/icon\ analytics\ 2.png") " " url("../img/icon\ analytics\ 3.png");
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(50%);
+  display: flex;
+  gap: 10px;
+  animation: appear 0.25s infinite;
 }
 
-@keyframes animate-preloader {
+@keyframes appear {
+
   0% {
-    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
   }
 
   100% {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
 
@@ -978,6 +980,10 @@ section,
   margin-bottom: 0;
 }
 
+.about img {
+  border-radius: 10px;
+}
+
 .about .pulsating-play-btn {
   position: absolute;
   left: calc(50% - 47px);
@@ -1135,7 +1141,7 @@ section,
 # Stats Section
 --------------------------------------------------------------*/
 .stats i {
-  color: var(--contrast-color);
+  color: #fff;
   background-color: #1b2950;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   width: 54px;
@@ -1151,13 +1157,13 @@ section,
 }
 
 .stats .stats-item {
-  background-color: var(--surface-color);
+  background-color: #fff;
   margin-top: -27px;
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.4);
   border-radius: 25px;
   z-index: 0;
 }
@@ -1167,14 +1173,15 @@ section,
   display: block;
   margin: 10px 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: #1b2950;
 }
 
 .stats .stats-item p {
   padding: 0;
   margin: 0;
-  font-family: var(--heading-font);
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1b2950;
 }
 
 /*--------------------------------------------------------------
@@ -1359,7 +1366,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item:not(:last-child) i {
-  color: var(--contrast-color);
+  color: #fff;
   background: #1b2950;
   font-size: 20px;
   width: 44px;
@@ -1373,7 +1380,7 @@ section,
 }
 
 .contact .info-item .socials-icon {
-  color: var(--contrast-color);
+  color: #fff;
   background: #1b2950;
   font-size: 20px;
   width: 44px;

@@ -120,8 +120,7 @@
    */
   on("click", ".mobile-nav-toggle", function (e) {
     select("#navbar").classList.toggle("navbar-mobile");
-    this.classList.toggle("bi-list");
-    this.classList.toggle("bi-x");
+    this.classList.toggle("toggle");
   });
 
   /**
@@ -153,8 +152,7 @@
         if (navbar.classList.contains("navbar-mobile")) {
           navbar.classList.remove("navbar-mobile");
           let navbarToggle = select(".mobile-nav-toggle");
-          navbarToggle.classList.toggle("bi-list");
-          navbarToggle.classList.toggle("bi-x");
+          navbarToggle.classList.toggle("toggle");
         }
         scrollto(this.hash);
       }
@@ -239,8 +237,9 @@
       img.src = hoverImagePath;
     });
 
+    // Ensure the image stays changed after touch
     box.addEventListener("touchend", () => {
-      img.src = defaultImagePath;
+      // Do nothing here to keep the image changed
     });
   });
 

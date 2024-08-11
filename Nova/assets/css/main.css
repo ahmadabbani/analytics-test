@@ -566,7 +566,7 @@ p {
   transform: translate(-50%, -50%) scale(50%);
   display: flex;
   gap: 10px;
-  animation: appear 0.5s infinite;
+  animation: appear 0.25s infinite;
 }
 
 @keyframes appear {

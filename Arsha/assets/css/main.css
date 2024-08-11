@@ -540,32 +540,34 @@ p {
 #preloader {
   position: fixed;
   inset: 0;
-  z-index: 999999;
+  z-index: 9999;
   overflow: hidden;
-  background: var(--background-color);
-  transition: all 0.6s ease-out;
+  background-color: #fff;
 }
 
 #preloader:before {
-  content: "";
+  content: url("../img/icon\ analytics\ 1.png") " " url("../img/icon\ analytics\ 2.png") " " url("../img/icon\ analytics\ 3.png");
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(50%);
+  display: flex;
+  gap: 10px;
+  animation: appear 0.25s infinite;
 }
 
-@keyframes animate-preloader {
+@keyframes appear {
+
   0% {
-    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
   }
 
   100% {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
 
@@ -1406,7 +1408,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item:not(:last-child) i {
-  color: var(--contrast-color);
+  color: #fff;
   background: #1b2950;
   font-size: 20px;
   width: 44px;
@@ -1420,7 +1422,7 @@ section,
 }
 
 .contact .info-item .socials-icon {
-  color: var(--contrast-color);
+  color: #fff;
   background: #1b2950;
   font-size: 20px;
   width: 44px;
@@ -1478,6 +1480,7 @@ section,
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   width: fit-content;
+  min-width: 150px;
   text-align: center;
   z-index: 1000;
 }
@@ -1501,23 +1504,33 @@ section,
 
 .footer-icons ul li:hover .dropdown-box,
 .footer-icons ul li .dropdown-box:hover {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon-facebook:hover .dropdown-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon-instagram:hover .dropdown-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon-tiktok:hover .dropdown-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon-linkedin:hover .dropdown-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact .info-item .footer-icons {
