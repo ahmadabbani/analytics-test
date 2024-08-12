@@ -174,12 +174,14 @@
   /**
    * Preloader
    */
-  let preloader = select("#preloader");
-  if (preloader) {
-    window.addEventListener("load", () => {
+  window.addEventListener("load", () => {
+    let preloader = document.querySelector("#preloader");
+
+    if (preloader) {
+      // Remove the preloader once all resources are fully loaded
       preloader.remove();
-    });
-  }
+    }
+  });
 
   /**
    * Hero carousel indicators
