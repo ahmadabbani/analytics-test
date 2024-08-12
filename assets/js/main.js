@@ -205,14 +205,42 @@
   // Get all elements with class 'service-box'
   const serviceBoxes = document.querySelectorAll(".service-box");
 
-  // services hover logo change
+  // Function to handle hover effects for desktop
+  function setupDesktopInteractions(
+    box,
+    img,
+    hoverImagePath,
+    defaultImagePath
+  ) {
+    box.addEventListener("mouseenter", () => {
+      img.src = hoverImagePath;
+    });
+
+    box.addEventListener("mouseleave", () => {
+      img.src = defaultImagePath;
+    });
+  }
+
+  // Function to handle click effects for mobile
+  function setupMobileInteractions(box, img, hoverImagePath, defaultImagePath) {
+    box.addEventListener("click", () => {
+      // Toggle the background color and image
+      if (box.classList.contains("active")) {
+        img.src = defaultImagePath;
+        box.classList.remove("active");
+      } else {
+        img.src = hoverImagePath;
+        box.classList.add("active");
+      }
+    });
+  }
+
+  // Set images based on index
   serviceBoxes.forEach((box, index) => {
     const img = box.querySelector(".hover-image");
-
     let hoverImagePath;
     let defaultImagePath;
 
-    // Set hover and default images based on the index
     if (index === 0) {
       hoverImagePath = "assets/img/newweb/research insights blue.png";
       defaultImagePath = "assets/img/newweb/research insights white.png";
@@ -224,27 +252,22 @@
       defaultImagePath = "assets/img/newweb/comms white.png";
     }
 
-    box.addEventListener("mouseenter", () => {
-      img.src = hoverImagePath;
-      box.classList.add("touch-active");
-    });
+    // Check screen width and set up interactions accordingly
+    function setupInteractions() {
+      if (window.innerWidth <= 768) {
+        // For screens 768px and below
+        setupMobileInteractions(box, img, hoverImagePath, defaultImagePath);
+      } else {
+        // For screens above 768px
+        setupDesktopInteractions(box, img, hoverImagePath, defaultImagePath);
+      }
+    }
 
-    box.addEventListener("mouseleave", () => {
-      img.src = defaultImagePath;
-      box.classList.remove("touch-active");
-    });
+    // Initial setup
+    setupInteractions();
 
-    // Mobile touch effects
-    box.addEventListener("touchstart", (event) => {
-      img.src = hoverImagePath;
-      box.classList.add("touch-active");
-      event.preventDefault(); // Prevents default touch behavior
-    });
-
-    box.addEventListener("touchend", () => {
-      img.src = defaultImagePath;
-      box.classList.remove("touch-active");
-    });
+    // Adjust setup on window resize
+    window.addEventListener("resize", setupInteractions);
   });
 
   // Articles swiper
