@@ -9,7 +9,6 @@
   src: url('../calibri-font-family/calibri-regular.ttf') format('truetype');
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff;
   /* Background color for the entire website, including individual sections */
@@ -25,7 +24,6 @@
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: rgba(255, 255, 255, 0.6);
   /* The default color of the main navmenu links */
@@ -40,8 +38,6 @@
   --nav-dropdown-hover-color: #56b8e6;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
-
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
   --background-color: #f6fcfe;
@@ -265,16 +261,20 @@ p {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
   cursor: pointer;
   display: none;
-  line-height: 0;
-  transition: 0.5s;
 }
 
-#header.header-scrolled .mobile-nav-toggle {
-  color: #1b2950;
+.mobile-nav-toggle div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#header.header-scrolled .mobile-nav-toggle div {
+  background-color: #1b2950;
 }
 
 #header.header-scrolled .navbar-mobile .dropdown ul {
@@ -284,6 +284,21 @@ p {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+
+  .mobile-nav-toggle.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: #1b2950;
+  }
+
+  .mobile-nav-toggle.toggle .line2 {
+    opacity: 0;
+
+  }
+
+  .mobile-nav-toggle.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    background-color: #1b2950;
   }
 
   .navbar ul {
@@ -319,16 +334,16 @@ p {
   width: 100%;
   height: 100%;
   align-items: center;
+  justify-content: center;
   border: 1px olid black !important;
-  padding: 80px 0 10px 0;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile a {
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 20px 20px;
+  font-size: 25px;
   color: #1b2950;
 }
 
@@ -336,7 +351,7 @@ p {
 .navbar-mobile .active,
 .navbar .active:focus,
 .navbar-mobile li:hover>a {
-  color: #9ea2a3;
+  opacity: 0.5;
 }
 
 .navbar-mobile .getstarted,
@@ -361,11 +376,11 @@ p {
 
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar-mobile .dropdown ul a {
@@ -376,6 +391,11 @@ p {
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
   color: #1b2950;
+}
+
+.navbar-mobile .dropdown .dropdown-span span,
+.navbar-mobile .dropdown .dropdown-span i {
+  color: #1b2950 !important;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -553,7 +573,7 @@ p {
   transform: translate(-50%, -50%) scale(50%);
   display: flex;
   gap: 10px;
-  animation: appear 0.25s infinite;
+  animation: appear 1s infinite;
 }
 
 @keyframes appear {

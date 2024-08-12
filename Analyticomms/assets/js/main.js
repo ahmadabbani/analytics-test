@@ -1,11 +1,3 @@
-/**
- * Template Name: Medilab
- * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
- * Updated: Jun 29 2024 with Bootstrap v5.3.3
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
-
 (function () {
   "use strict";
 
@@ -140,8 +132,7 @@
    */
   on("click", ".mobile-nav-toggle", function (e) {
     select("#navbar").classList.toggle("navbar-mobile");
-    this.classList.toggle("bi-list");
-    this.classList.toggle("bi-x");
+    this.classList.toggle("toggle");
   });
 
   /**
@@ -173,8 +164,7 @@
         if (navbar.classList.contains("navbar-mobile")) {
           navbar.classList.remove("navbar-mobile");
           let navbarToggle = select(".mobile-nav-toggle");
-          navbarToggle.classList.toggle("bi-list");
-          navbarToggle.classList.toggle("bi-x");
+          navbarToggle.classList.toggle("toggle");
         }
         scrollto(this.hash);
       }
@@ -425,7 +415,7 @@
 
   /**
    * Navmenu Scrollspy
-   */
+   
   let navmenulinks = document.querySelectorAll(".navmenu a");
 
   function navmenuScrollspy() {
@@ -448,5 +438,5 @@
     });
   }
   window.addEventListener("load", navmenuScrollspy);
-  document.addEventListener("scroll", navmenuScrollspy);
+  document.addEventListener("scroll", navmenuScrollspy); */
 })();

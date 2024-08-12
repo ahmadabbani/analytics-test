@@ -220,7 +220,7 @@ ul {
   transform: translate(-50%, -50%) scale(50%);
   display: flex;
   gap: 10px;
-  animation: appear 0.25s infinite;
+  animation: appear 1s infinite;
 }
 
 @keyframes appear {
@@ -1172,13 +1172,13 @@ ul {
 }
 
 .blog-text h4 p {
-  font-size: 18px;
+  font-size: 14px;
   margin: 0.5rem 0;
   color: #7586a5;
   font-style: italic;
   margin-top: 0;
   padding: 0;
-  font-weight: lighter;
+
 }
 
 .blog-text h4 a {
@@ -1224,34 +1224,6 @@ ul {
   color: #1b2950;
   text-decoration: none;
 }
-
-/*.blog-area .container .single-blog span {
-  display: block;
-  display: flex;
-  justify-content: center;
-}
-
-/*.single-blog .ready-btn {
-  border: 2px solid #1b2950;
-  border-radius: 30px;
-  color: #1b2950;
-  background-color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 10px;
-  padding: 8px 18px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: all 0.4s ease 0s;
-}
-
-.single-blog .ready-btn:hover {
-  background-color: #7586a5;
-  border: 2px solid #7586a5;
-  opacity: 0.8;
-}*/
 
 .single-blog .ready-btn {
   position: absolute;
