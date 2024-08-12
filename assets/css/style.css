@@ -910,6 +910,11 @@ ul {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.row .service-box.touch-active {
+  background-color: #1b2950;
+  cursor: pointer;
+}
+
 .row .service-box:hover {
   background-color: #1b2950;
   cursor: pointer;

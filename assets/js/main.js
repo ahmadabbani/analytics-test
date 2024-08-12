@@ -235,23 +235,13 @@
     //for mobile
     box.addEventListener("touchstart", () => {
       img.src = hoverImagePath;
+      box.classList.add("touch-active");
     });
 
-    // Ensure the image stays changed after touch
     box.addEventListener("touchend", () => {
-      // Do nothing here to keep the image changed
+      img.src = defaultImagePath;
+      box.classList.remove("touch-active");
     });
-  });
-
-  // Global touch listener to reset image on touch outside
-  document.addEventListener("touchstart", (event) => {
-    // Check if the touch event is outside any service box
-    if (![...serviceBoxes].some((box) => box.contains(event.target))) {
-      serviceBoxes.forEach((box) => {
-        const img = box.querySelector(".hover-image");
-        img.src = defaultImagePath;
-      });
-    }
   });
 
   // Articles swiper
