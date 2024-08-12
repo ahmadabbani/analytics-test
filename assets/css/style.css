@@ -916,6 +916,11 @@ ul {
     background-color: #1b2950;
     cursor: pointer;
   }
+
+  .service-box:hover .single-services>p {
+    color: #fff;
+    transition: 0.5s ease;
+  }
 }
 
 /* Mobile click effect */
@@ -954,11 +959,6 @@ ul {
   font-size: 16px;
   margin: 0;
   padding: 0 0.5rem;
-}
-
-.service-box:hover .single-services>p {
-  color: #fff;
-  transition: 0.5s ease;
 }
 
 @media (max-width: 767px) {
