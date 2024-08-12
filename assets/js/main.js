@@ -239,7 +239,7 @@
 
     // Ensure the image stays changed after touch
     box.addEventListener("touchend", () => {
-      // Do nothing here to keep the image changed
+      img.src = defaultImagePath;
     });
   });
 
