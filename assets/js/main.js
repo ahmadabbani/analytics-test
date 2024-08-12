@@ -221,20 +221,6 @@
     });
   }
 
-  // Function to handle click effects for mobile
-  function setupMobileInteractions(box, img, hoverImagePath, defaultImagePath) {
-    box.addEventListener("click", () => {
-      // Toggle the background color and image
-      if (box.classList.contains("active")) {
-        img.src = defaultImagePath;
-        box.classList.remove("active");
-      } else {
-        img.src = hoverImagePath;
-        box.classList.add("active");
-      }
-    });
-  }
-
   // Set images based on index
   serviceBoxes.forEach((box, index) => {
     const img = box.querySelector(".hover-image");
@@ -254,10 +240,7 @@
 
     // Check screen width and set up interactions accordingly
     function setupInteractions() {
-      if (window.innerWidth <= 768) {
-        // For screens 768px and below
-        setupMobileInteractions(box, img, hoverImagePath, defaultImagePath);
-      } else {
+      if (window.innerWidth >= 769) {
         // For screens above 768px
         setupDesktopInteractions(box, img, hoverImagePath, defaultImagePath);
       }
