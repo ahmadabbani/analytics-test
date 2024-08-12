@@ -243,6 +243,8 @@
       if (window.innerWidth >= 769) {
         // For screens above 768px
         setupDesktopInteractions(box, img, hoverImagePath, defaultImagePath);
+      } else {
+        return;
       }
     }
 

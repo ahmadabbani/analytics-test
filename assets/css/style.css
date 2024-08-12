@@ -920,8 +920,9 @@ ul {
 
 /* Mobile click effect */
 @media (max-width: 768px) {
-  .row .service-box.active {
-    background-color: #1b2950;
+  .row .service-box:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
   }
 }
 
