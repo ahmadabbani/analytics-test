@@ -925,11 +925,10 @@ ul {
 
 /* Mobile click effect */
 @media (max-width: 768px) {
-  .row .service-box:hover {
+  .row .service-box {
     box-shadow: none !important;
-    border: 1px solid #7586a5;
+    border: 2px solid #7586a5;
     cursor: pointer;
-    transition: border 0.3s ease;
   }
 }
 
