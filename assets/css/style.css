@@ -926,9 +926,10 @@ ul {
 /* Mobile click effect */
 @media (max-width: 768px) {
   .row .service-box:hover {
-    transform: translateY(-3px);
+    box-shadow: none !important;
+    border: 1px solid #7586a5;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: border 0.3s ease;
   }
 }
 
