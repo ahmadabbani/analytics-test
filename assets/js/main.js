@@ -226,16 +226,19 @@
 
     box.addEventListener("mouseenter", () => {
       img.src = hoverImagePath;
+      box.classList.add("touch-active");
     });
 
     box.addEventListener("mouseleave", () => {
       img.src = defaultImagePath;
+      box.classList.remove("touch-active");
     });
 
-    //for mobile
-    box.addEventListener("touchstart", () => {
+    // Mobile touch effects
+    box.addEventListener("touchstart", (event) => {
       img.src = hoverImagePath;
       box.classList.add("touch-active");
+      event.preventDefault(); // Prevents default touch behavior
     });
 
     box.addEventListener("touchend", () => {
