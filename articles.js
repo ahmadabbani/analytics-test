@@ -170,7 +170,9 @@ function updateArticleDetailsInHtml(articleData) {
     document.getElementById("article-description").textContent =
       articleData.description;
     document.getElementById("article-quote").textContent = articleData.quote;
-    document.getElementById("article-image").src = articleData.image;
+    const imageElement = document.getElementById("article-image");
+    imageElement.src = articleData.image;
+    imageElement.alt = articleData.title;
     // Update tags in HTML
     updateArticleTagsInHtml(articleData.tags);
   } else {
