@@ -204,7 +204,7 @@
 
   window.addEventListener("load", initSwiper);
 
-  //clients animation
+  //partners animation
   document.addEventListener("DOMContentLoaded", function () {
     const logoRow = document.querySelector(".logo-row");
     const logos = document.querySelectorAll(".logo-item");

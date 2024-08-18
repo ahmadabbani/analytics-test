@@ -279,7 +279,7 @@ function displayPageNotFound() {
 //Whatsapp message
 function sendWhatsAppMessage(productName) {
   const phoneNumber = "96170119027";
-  const message = `Hello! I'm interested in learning more about "${productName}" training. Could you please provide more details? Thank you!.`;
+  const message = `Hello! I'm interested in finding out more about "${productName}" training. Could you please provide more details? Thank you!.`;
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;
