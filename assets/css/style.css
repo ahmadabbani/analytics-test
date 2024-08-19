@@ -1488,7 +1488,7 @@ ul {
 
 .recent-single-post {
   border-bottom: 1px solid #ddd;
-  display: block;
+  display: flex;
   overflow: hidden;
   padding: 15px 10px;
 }
