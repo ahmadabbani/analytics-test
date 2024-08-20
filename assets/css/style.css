@@ -175,6 +175,7 @@ body {
   background: #1b2950;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
   transition: all 0.4s;
 }
 
@@ -534,7 +535,6 @@ ul {
   height: 100%;
   align-items: center;
   justify-content: center;
-  border: 1px olid black !important;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -789,7 +789,7 @@ ul {
 # About
 --------------------------------------------------------------*/
 .about-area {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding-bottom: 0rem;
 }
 
@@ -943,7 +943,7 @@ ul {
 
 .row .service-box {
   padding: 0;
-  box-shadow: 5px 5px 10px #7586a5;
+  box-shadow: 5px 5px 11px rgb(117, 134, 165, 0.7);
 }
 
 .services-details {

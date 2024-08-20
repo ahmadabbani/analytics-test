@@ -604,7 +604,7 @@ p {
   background-color: #1b2950;
   width: 44px;
   height: 44px;
-  border-radius: 50px;
+  border-radius: 50%;
   transition: all 0.4s;
 }
 
