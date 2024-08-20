@@ -1075,10 +1075,6 @@ section,
   margin-left: 8px;
 }
 
-.services .service-item:hover {
-  /*background-color: #1b2950;*/
-}
-
 .services .service-item::before {
   content: '';
   position: absolute;
