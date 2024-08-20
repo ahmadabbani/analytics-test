@@ -32,6 +32,21 @@ In summary, the economic future of the Middle East is closely tied to the resolu
   },
   {
     id: 3,
+    title: "Global Growth Faces Stagnation Amid Rising Policy Uncertainty",
+    description: `The global economy is facing a prolonged period of stagnation, with growth projections for 2024 and 2025 remaining at 3.2% and 3.3% respectively, significantly lower than pre-pandemic averages. While major economies are showing signs of alignment, the world’s medium-term growth prospects are weak due to rising policy uncertainty and fiscal challenges.
+In advanced economies like the United States, disinflation has slowed, with persistent wage and service price inflation creating upward pressure on overall prices. Central banks, including the Federal Reserve, may need to maintain higher borrowing costs for an extended period, risking slower growth and negative spillovers to emerging markets. Additionally, the deterioration of public finances in many countries exacerbates fiscal vulnerabilities, limiting their ability to respond to future economic shocks.
+Emerging markets, particularly in Asia, continue to be the primary drivers of global growth, with India and China contributing nearly half of the world’s economic expansion. However, this momentum is expected to wane over the next five years, with China’s growth projected to slow significantly. The challenge for these economies will be to sustain growth while managing domestic and global economic uncertainties.
+The erosion of the multilateral trading system further complicates the global economic landscape. Unilateral trade measures and industrial policies by various countries threaten to distort trade, hinder resource allocation, and weaken global growth. As more nations turn inward, the potential for economic integration and cooperation diminishes, making it harder to address shared challenges like climate change.
+To navigate these uncertainties, policymakers must focus on rebuilding fiscal buffers, promoting inclusive growth, and strengthening global cooperation. Reforms aimed at improving resource allocation, boosting productivity, and enhancing social safety nets can help mitigate the risks of a low-growth, high-inequality world. Ultimately, maintaining a commitment to multilateralism and policy coordination will be crucial in ensuring a stable and prosperous global economy.
+`,
+    author: `Jad Youssef`,
+    auInf1: "Politics and finance expert",
+    auInf2: "Senior business developer at Analytics Expertise",
+    image:
+      "assets/img/articles/Global Growth Faces Stagnation Amid Rising Policy Uncertainty.jpg",
+  },
+  {
+    id: 4,
     title:
       "The Gaza War's Ripple Effects on Lebanon's Fragile Economy and Society",
     description: `The ongoing war in Gaza has far-reaching consequences for Lebanon, impacting various socio-economic aspects. The conflict exacerbates Lebanon's existing vulnerabilities, including political instability, economic collapse, and humanitarian challenges.
@@ -46,21 +61,6 @@ Overall, the Gaza war exacerbates Lebanon's socio-economic challenges, deepening
     auInf2: "Director at Analytics Expertise",
     image:
       "assets/img/articles/The Gaza War's Ripple Effects on Lebanon's Fragile Economy and Society.jpg",
-  },
-  {
-    id: 4,
-    title: "Global Growth Faces Stagnation Amid Rising Policy Uncertainty",
-    description: `The global economy is facing a prolonged period of stagnation, with growth projections for 2024 and 2025 remaining at 3.2% and 3.3% respectively, significantly lower than pre-pandemic averages. While major economies are showing signs of alignment, the world’s medium-term growth prospects are weak due to rising policy uncertainty and fiscal challenges.
-In advanced economies like the United States, disinflation has slowed, with persistent wage and service price inflation creating upward pressure on overall prices. Central banks, including the Federal Reserve, may need to maintain higher borrowing costs for an extended period, risking slower growth and negative spillovers to emerging markets. Additionally, the deterioration of public finances in many countries exacerbates fiscal vulnerabilities, limiting their ability to respond to future economic shocks.
-Emerging markets, particularly in Asia, continue to be the primary drivers of global growth, with India and China contributing nearly half of the world’s economic expansion. However, this momentum is expected to wane over the next five years, with China’s growth projected to slow significantly. The challenge for these economies will be to sustain growth while managing domestic and global economic uncertainties.
-The erosion of the multilateral trading system further complicates the global economic landscape. Unilateral trade measures and industrial policies by various countries threaten to distort trade, hinder resource allocation, and weaken global growth. As more nations turn inward, the potential for economic integration and cooperation diminishes, making it harder to address shared challenges like climate change.
-To navigate these uncertainties, policymakers must focus on rebuilding fiscal buffers, promoting inclusive growth, and strengthening global cooperation. Reforms aimed at improving resource allocation, boosting productivity, and enhancing social safety nets can help mitigate the risks of a low-growth, high-inequality world. Ultimately, maintaining a commitment to multilateralism and policy coordination will be crucial in ensuring a stable and prosperous global economy.
-`,
-    author: `Jad Youssef`,
-    auInf1: "Politics and finance expert",
-    auInf2: "Senior business developer at Analytics Expertise",
-    image:
-      "assets/img/articles/Global Growth Faces Stagnation Amid Rising Policy Uncertainty.jpg",
   },
   {
     id: 5,

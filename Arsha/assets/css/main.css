@@ -829,6 +829,10 @@ p {
     font-size: 16px !important;
   }
 
+  .post-thumbnail #article-image {
+    width: 100%;
+  }
+
   .entry-content blockquote {
     padding: 5px 15px !important;
     font-size: 15px !important;
