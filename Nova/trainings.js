@@ -9,7 +9,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "3 months",
-    image: "assets/img/cards-1.jpg",
+    image: "assets/img/trainings/Introduction to project design .jpg",
     location: "Online",
     numberOfParticipants: "5",
   },
@@ -23,7 +23,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/project planning.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -37,7 +37,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/Reporting and documentation .jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -51,7 +51,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/Communication and stakeholder engagement.png",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -65,7 +65,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/introduction to M&E framework.png",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -80,7 +80,8 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image:
+      "assets/img/trainings/Self-Evaluation and Success in the Workplace.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -95,7 +96,8 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image:
+      "assets/img/trainings/Making Money_ 5 Reasons Why Digitalization is a Must for Your Business.jpeg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -109,7 +111,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/data collection.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -123,7 +125,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/data reporting.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -137,7 +139,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/Data dissemination and feedback use.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -151,7 +153,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/planning.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -165,7 +167,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/stakeholder analysis.png",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -179,7 +181,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/trainings.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -193,7 +195,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/data analysis.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -207,7 +209,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/Ai trainings.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
@@ -221,7 +223,7 @@ const trainings = [
                   doloremque vel, minus quisquam quidem. Optio, illum quas totam
                   quia fugiat nihil quasi quis?`,
     duration: "5 months",
-    image: "assets/img/cards-3.jpg",
+    image: "assets/img/trainings/Ai integration.jpg",
     location: "beirut",
     numberOfParticipants: "8",
   },
