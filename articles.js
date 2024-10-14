@@ -11,7 +11,7 @@ In simple terms AI involves using enhanced models that utilize a network of conn
 However, for computers to reach these capabilities they require a huge amount of data which would allow AI to identify patterns, make predictions, and recommend actions.
 AI is already all around us in the apps we use on our mobile phones, in cutting-edge devices, and in robots. That’s why it is important to know how to effectively use AI to our advantage. Platforms such as Chat GPT and Gemini are already starting to replace Google, Gamma is giving an easier alternative to PowerPoint and many other types of Artificial Intelligence making human life and labor easier, especially for social media, content creation, graphic design, and video editing.`,
     quote: `Knowing how to effectively use AI is increasingly becoming crucial to the advancement of any company and an x-factor in its success.`,
-    image: "assets/img/about/ai1.jpg",
+    image: "assets/img/AI Driven Innovations.jpg",
     tags: [
       "AI Applications",
       "AI in Marketing",
@@ -33,7 +33,7 @@ AI is already all around us in the apps we use on our mobile phones, in cutting-
   As part of our continuous experience exchange, Ahmad conducted a one-day training session for our communication team, focusing on both the fundamentals of content creation and the advanced techniques of  crafting a good idea.
    This session covered everything from brainstorming and idea generation to scriptwriting and storyboarding. The training significantly enhanced our team's skills, ensuring that our content remains innovative, engaging, and impactful.`,
     quote: `Ahmad’s expertise and dedication to content creation play a vital role in our commitment to delivering high-quality and engaging content.`,
-    image: "assets/img/about/analysis2.jpg",
+    image: "assets/img/mastering content creation.jpg",
     tags: [
       "Content Creation",
       "Content Strategy",
@@ -62,7 +62,7 @@ AI is already all around us in the apps we use on our mobile phones, in cutting-
    adding a whole new dimension to the media production service.`,
     quote: `Trust us when we say, “Social media is the present and the future of marketing”, 
     utilize it wisely, and don’t hesitate to reach out to our professionals and experts to help you take the right steps in the  media production field.`,
-    image: "assets/img/blog/6.jpg",
+    image: "assets/img/media production made easy.jpeg",
     tags: [
       "Media",
       "Production",
@@ -94,7 +94,7 @@ AI is already all around us in the apps we use on our mobile phones, in cutting-
     driving traffic and converting visitors into customers.`,
     quote: `Contact us to learn more about our web development services and how we can help you achieve your online goals.
      Let’s build something great together!`,
-    image: "assets/img/about/Web.jpg",
+    image: "assets/img/web solution.jpg",
     tags: [
       "Web",
       "Design",
@@ -127,7 +127,7 @@ AI is already all around us in the apps we use on our mobile phones, in cutting-
    a clear and well-defined operational plan, followed by a market study that complement the competitive analysis,
     which helps with the marketing plan before finishing off with the financial forecast/financial feasibility study.`,
     quote: `Analytics is here to help you start a successful business. Don’t hesitate, contact us now!`,
-    image: "assets/img/about/analysis.jpg",
+    image: "assets/img/Business development - plan.jpg",
     tags: [
       "Business",
       "Strategy",

@@ -244,57 +244,48 @@
       title: "Planning and Project Development",
       description: `We assist organizations in planning and developing projects that align with their strategic goals. Our services include needs assessments, project design, and strategic planning to ensure projects are well-founded and impactful.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
     {
       title: "Capacity Building and Trainings",
       description: `We offer capacity-building programs and training sessions tailored to the needs of organizations.
        Our training covers a range of topics, including project management, data analysis, and organizational development, empowering teams to perform at their best.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-5.jpg",
     },
     {
       title: "Data Collection and Analysis",
       description: `We provide comprehensive data collection and analysis services. Our team employs cutting-edge tools and methodologies to gather accurate data and generate actionable insights, enabling organizations to make informed decisions.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-3.jpg",
     },
     {
       title: "Monitoring, Evaluation, and Learning",
       description: `Our monitoring, evaluation, and learning services ensure that organizations can track their progress, evaluate their impact, and learn from their experiences. We provide customized solutions to help organizations improve their performance and achieve their goals.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-4.jpg",
     },
     {
       title: "AI Organizational Integration",
       description: `We help organizations integrate artificial intelligence into their operations. Our services include AI strategy development, implementation support, and training to ensure organizations can leverage AI to enhance their efficiency and effectiveness.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
     {
       title: "Strategic Consulting",
       description: `Our strategic consulting services help organizations navigate complex challenges and seize opportunities. We provide expert advice on organizational development, change management, and strategic planning.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
     {
       title: "Grant Writing and Fundraising",
       description: `We support organizations in securing funding through effective grant writing and fundraising strategies.
        Our services include identifying funding opportunities, crafting compelling proposals, and engaging with donors.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
     {
       title: "Risk Assessment and Management",
       description: `We help organizations identify, assess, and mitigate risks to ensure project success. Our risk management strategies safeguard against potential threats and enhance project resilience.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
     {
       title: "Community, Stakeholder Engagement, and Outreach",
       description: `Effective engagement with communities and stakeholders is crucial for project success. We design and implement engagement strategies that foster collaboration, trust, and mutual understanding.`,
       icon: "bi-briefcase",
-      img: "../Nova/assets/img/cards-1.jpg",
     },
   ];
 
@@ -304,8 +295,6 @@
     document.querySelector("#serviceModalLabel").textContent = service.title;
     document.querySelector(".modal-description").textContent =
       service.description;
-    document.querySelector(".modal-img").src = service.img;
-    document.querySelector(".modal-img").alt = service.title;
 
     // Show the modal
     const modal = new bootstrap.Modal(document.getElementById("serviceModal"));

@@ -254,14 +254,12 @@
         Whether you're looking to define a clear business roadmap, optimize operations, or supercharge your marketing efforts, our expertise is your competitive advantage.
        We measure our success by your success, and we're here to guide you every step of the way.`,
       icon: "bi-briefcase",
-      img: "../Arsha/assets/img/service1.jpg",
     },
     {
       title: "Sociopolitical Research",
       description: `Stay at the forefront of societal trends and issues with our socio political research services. Our team of skilled researchers brings you comprehensive and objective analysis on a wide range of topics, including social justice, human rights, governance, and public policy.
        Our in-depth reports and studies equip you with the knowledge and understanding necessary to navigate the complex sociopolitical environment and make informed decisions that align with your values.`,
       icon: "bi-briefcase",
-      img: "../Arsha/assets/img/service2.jpg",
     },
     {
       title: "Legal Research and Support",
@@ -271,7 +269,6 @@
        case studies, and legal opinions, helping you stay abreast of the latest legal trends and precedents.
        The Analytics Team also provides legal support and consultation through our lawyers.`,
       icon: "bi-briefcase",
-      img: "../Arsha/assets/img/service3.jpg",
     },
     {
       title: "Publications",
@@ -281,7 +278,6 @@
         are a valuable resource for expanding your knowledge and contributing to meaningful discussions.
 Trust our expertise in business planning and development, research, and publications to keep you informed, empowered, and engaged with the world around you. Stay ahead of the curve with our comprehensive insights and thought leadership.`,
       icon: "bi-briefcase",
-      img: "../Arsha/assets/img/service4.jpg",
     },
   ];
 
@@ -291,8 +287,6 @@ Trust our expertise in business planning and development, research, and publicat
     document.querySelector("#serviceModalLabel").textContent = service.title;
     document.querySelector(".modal-description").textContent =
       service.description;
-    document.querySelector(".modal-img").src = service.img;
-    document.querySelector(".modal-img").alt = service.title;
 
     // Show the modal
     const modal = new bootstrap.Modal(document.getElementById("serviceModal"));

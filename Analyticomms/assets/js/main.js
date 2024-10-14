@@ -251,7 +251,6 @@
        We create logos and other visual elements that represent your brand, 
        crafting taglines, slogans, and key messages that resonate with your audience and reflect your unique value proposition.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/about.jpg",
     },
     {
       title: "Digital Marketing",
@@ -260,7 +259,6 @@
         and run ads on platforms like Facebook, Instagram, TikTok,
        and LinkedIn. We also run paid ad campaigns on Google Ads and social media for maximum reach.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-2.jpg",
     },
     {
       title: "Website Development and Management",
@@ -268,7 +266,6 @@
        We build and manage e-commerce solutions for seamless online shopping experiences, 
       and provide regular updates and optimizations to ensure smooth, and secure website performance.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-3.jpg",
     },
     {
       title: "Content Creation",
@@ -277,7 +274,6 @@
        banners, and social media graphics, while our video production team produces promotional videos,
        explainer videos, and other multimedia content to effectively communicate your message.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-1.jpg",
     },
     {
       title: "Public Relations",
@@ -285,7 +281,6 @@
        or company milestones. We build and maintain relationships with journalists and media outlets to ensure positive media coverage,
        and handle communication during times of crisis, to protect and manage your brand's reputation.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-2.jpg",
     },
     {
       title: "Marketing Training",
@@ -293,7 +288,6 @@
        analytics and reporting, content creation, and marketing strategy development.
        Our training programs are designed to equip your team with the skills and knowledge needed to excel in today’s competitive market.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-3.jpg",
     },
     {
       title: "Traditional Marketing",
@@ -301,7 +295,6 @@
        and other media; developing commercials for television and radio, and designing billboards, banners,
        and other outdoor advertising materials to ensure comprehensive market coverage.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-1.jpg",
     },
     {
       title: "Analytics and Reporting",
@@ -309,7 +302,6 @@
        Our reporting services provide regular reports on key metrics and insights,
        guiding future marketing strategies, and ensuring your campaigns are effective and aligned with your business goals.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-2.jpg",
     },
     {
       title: "Consulting and Strategy",
@@ -317,7 +309,6 @@
        We provide ongoing consultation and expert advice to adjust strategies based on market change and business needs,
        ensuring that your marketing efforts are always on the right track.`,
       icon: "bi-briefcase",
-      img: "../Analyticomms/assets/img/departments-3.jpg",
     },
   ];
 
@@ -327,9 +318,6 @@
     document.querySelector("#serviceModalLabel").textContent = service.title;
     document.querySelector(".modal-description").textContent =
       service.description;
-    document.querySelector(".modal-img").src = service.img;
-    document.querySelector(".modal-img").alt = service.title;
-
     // Show the modal
     const modal = new bootstrap.Modal(document.getElementById("serviceModal"));
     modal.show();
