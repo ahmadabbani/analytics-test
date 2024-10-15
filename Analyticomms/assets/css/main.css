@@ -1235,6 +1235,36 @@ section,
   animation: fadeIn 0.5s ease-out;
 }
 
+.departments .mediaex {
+  height: 150px;
+}
+
+@media (min-width: 1200px) {
+  .departments .mediaex {
+    height: 160px;
+  }
+}
+
+@media (max-width: 992px) {
+  .departments img {
+    height: 150px;
+  }
+
+  .departments .mediaex {
+    height: 80px;
+  }
+}
+
+@media (max-width: 580px) {
+  .departments img {
+    height: 100px;
+  }
+
+  .departments .mediaex {
+    height: 60px;
+  }
+}
+
 .departments .details h3 {
   font-size: 26px;
   font-weight: 600;

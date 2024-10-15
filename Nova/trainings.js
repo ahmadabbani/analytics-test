@@ -78,15 +78,11 @@ const trainings = [
   {
     id: "9",
     title: "Data Analysis and Reporting",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-                  officiis, veritatis doloribus in a laudantium explicabo
-                  accusamus sapiente autem itaque perspiciatis nihil laborum
-                  veniam error neque natus deserunt numquam, illo dolorem
-                  doloremque vel, minus quisquam quidem. Optio, illum quas totam
-                  quia fugiat nihil quasi quis?`,
-    duration: "5 months",
+    modality: "Online and in person",
+    description: `This session focuses on the essential steps for transforming raw data into meaningful insights and communicating them effectively. Participants will begin with data validation, ensuring the accuracy and integrity of the data collected. They will then learn how to build an analysis matrix, a structured framework for organizing data in preparation for in-depth analysis. The session also covers data cleaning techniques, where participants will understand how to identify and correct inconsistencies, missing values, and outliers that could skew results. In the data analysis and visualization section, participants will explore various methods to analyze data, generate insights, and represent findings visually through charts, graphs, and other tools. Finally, the session concludes with report writing, where participants will learn best practices for documenting their analysis, presenting key findings, and making recommendations in a clear, concise, and actionable report.`,
+    duration: "12 hours",
     image: "assets/img/trainings/data reporting.jpg",
-    numberOfParticipants: "8",
+    numberOfParticipants: "10-12",
   },
   {
     id: "10",
