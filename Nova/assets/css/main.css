@@ -99,9 +99,10 @@ p {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: linear-gradient(to right, rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.5));
+  background: #1b2950;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.5);
 }
 
 #header.header-scrolled {
@@ -206,6 +207,11 @@ p {
 .navbar .active:focus,
 .navbar li:hover>a {
   opacity: 0.5;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+  color: #fff;
 }
 
 #header.header-scrolled .navbar .dropdown ul {
@@ -344,7 +350,7 @@ p {
 .navbar-mobile a {
   padding: 20px 20px;
   font-size: 25px;
-  color: #1b2950;
+  color: #1b2950 !important;
 }
 
 .navbar-mobile a:hover,

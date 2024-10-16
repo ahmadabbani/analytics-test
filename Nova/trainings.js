@@ -5,7 +5,8 @@ const trainings = [
     modality: "Online and in person",
     description: `Participants will learn the basics of designing a successful project, including defining objectives, setting scope, creating a timeline, and identifying stakeholders. The training will cover the fundamentals of project conceptualization, goal setting, and resource identification to ensure project success from the onset.`,
     duration: "3 hours",
-    image: "assets/img/trainings/Introduction to project design .jpg",
+    image:
+      "assets/img/trainings/12 Advantages of Power BI for Better Business Decision.jpeg",
     numberOfParticipants: "12-15",
   },
   {
