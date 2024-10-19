@@ -162,7 +162,10 @@ function getTrainingIdFromUrl() {
 function findTrainingById(trainingId) {
   return trainings.find((training) => training.id === trainingId);
 }
-
+// Function to find training by title different from trainingtitle
+function findTrainingsWithTitleNot(trainingId) {
+  return trainings.filter((training) => training.id !== trainingId);
+}
 // Function to update blog details in HTML
 function updateTrainingDetailsInHtml(trainingData) {
   if (trainingData) {
@@ -199,6 +202,47 @@ function displayPageNotFound() {
 
   document.getElementById("portfolio-details").textContent =
     "The training you are looking for does not exist.";
+}
+
+// Function to update recent articles in HTML
+function updateRecentPostsInHtml(recentTrainings) {
+  const recentPostsContainer = document.querySelector(".recent-post");
+  recentPostsContainer.innerHTML = ""; // Clear existing content
+
+  recentTrainings.forEach((training) => {
+    const recentSinglePost = document.createElement("div");
+    recentSinglePost.className = "recent-single-post";
+
+    const postImg = document.createElement("div");
+    postImg.className = "post-img";
+
+    const imgLink = document.createElement("a");
+    imgLink.href = `trainings.html?id=${encodeURIComponent(training.id)}`;
+
+    const img = document.createElement("img");
+    img.src = training.image;
+    img.alt = training.title;
+
+    imgLink.appendChild(img);
+    postImg.appendChild(imgLink);
+
+    const pstContent = document.createElement("div");
+    pstContent.className = "pst-content";
+
+    const p = document.createElement("p");
+
+    const titleLink = document.createElement("a");
+    titleLink.href = `trainings.html?id=${encodeURIComponent(training.id)}`;
+    titleLink.textContent = training.title;
+
+    p.appendChild(titleLink);
+    pstContent.appendChild(p);
+
+    recentSinglePost.appendChild(postImg);
+    recentSinglePost.appendChild(pstContent);
+
+    recentPostsContainer.appendChild(recentSinglePost);
+  });
 }
 
 //Whatsapp message
