@@ -1118,9 +1118,15 @@ ul {
   border-color: #fff;
 }
 
+@media (min-width: 1470px) {
+
+  .reviews-area .call-us-img {
+    width: 100%;
+  }
+}
+
 @media (min-width: 749px) and (max-width: 992px) {
   .reviews-area .call-us-img {
-    border: 1px solid red;
     width: 100%;
   }
 }
