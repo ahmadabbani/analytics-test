@@ -1791,3 +1791,67 @@ section,
     width: 35%;
   }
 }
+
+/* trainings from*/
+form {
+  margin: auto;
+  padding: 20px;
+  background-color: #1b2950;
+  color: white;
+  border-radius: 10px;
+}
+
+#register-title {
+  padding-bottom: 10px;
+}
+
+label,
+input,
+select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+input,
+select {
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #1b2950;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.checkbox {
+  display: flex;
+  /* Use flexbox to align the checkbox and text */
+  align-items: center;
+  /* Center the checkbox and text vertically */
+}
+
+.checkbox input {
+  margin: 0;
+  /* Remove margin from the checkbox */
+  width: auto;
+  margin-right: 5px;
+  /* Add a small space between the checkbox and the text */
+}
+
+
+.iti__selected-dial-code {
+  color: #707070;
+}

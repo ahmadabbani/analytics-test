@@ -184,11 +184,11 @@ function updateTrainingDetailsInHtml(trainingData) {
       trainingData.numberOfParticipants;
     document.getElementById("training-description").textContent =
       trainingData.description;
-    document
+    /*document
       .getElementById("contact-btn")
       .addEventListener("click", function () {
         sendWhatsAppMessage(trainingData.title);
-      });
+      });*/
   } else {
     displayPageNotFound();
   }
@@ -245,7 +245,23 @@ function updateRecentPostsInHtml(recentTrainings) {
   });
 }
 
-//Whatsapp message
+// Function to update training details on page load
+function updateTrainingDetailsOnLoad() {
+  const trainingId = getTrainingIdFromUrl();
+  const trainingData = findTrainingById(trainingId);
+  if (trainingData) {
+    updateTrainingDetailsInHtml(trainingData);
+    const recentTrainings = findTrainingsWithTitleNot(trainingId);
+    updateRecentPostsInHtml(recentTrainings);
+  } else {
+    displayPageNotFound();
+  }
+}
+
+// Call updateTrainingDetailsOnLoad when the page loads
+document.addEventListener("DOMContentLoaded", updateTrainingDetailsOnLoad);
+
+/*Whatsapp message
 function sendWhatsAppMessage(productName) {
   const phoneNumber = "96170119027";
   const message = `Hello! I'm interested in finding out more about "${productName}" training. Could you please provide more details? Thank you!.`;
@@ -253,4 +269,51 @@ function sendWhatsAppMessage(productName) {
     message
   )}`;
   window.open(whatsappURL, "_blank");
-}
+}*/
+
+//list of countries
+fetch("https://restcountries.com/v3.1/all")
+  .then((response) => response.json())
+  .then((countries) => {
+    const countrySelect = document.getElementById("country");
+    countries.forEach((country) => {
+      const option = document.createElement("option");
+      option.value = country.name.common;
+      option.textContent = country.name.common;
+      countrySelect.appendChild(option);
+    });
+  })
+  .catch((error) => console.error("Error fetching countries:", error));
+
+//trainings list form
+const trainingSelect = document.getElementById("training");
+
+trainings.forEach((training) => {
+  const option = document.createElement("option");
+  option.value = training.title;
+  option.textContent = training.title;
+  trainingSelect.appendChild(option);
+});
+
+// phone number country code
+const phoneInputField = document.querySelector("#phone");
+
+const phoneInput = window.intlTelInput(phoneInputField, {
+  initialCountry: "auto",
+  separateDialCode: true, // Show only the dial code separate from the number
+  autoPlaceholder: "off", // Disable the default number placeholder
+  geoIpLookup: function (success, failure) {
+    fetch("https://ipapi.co/json/")
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        success(data.country_code.toLowerCase()); // Set the country code
+      })
+      .catch(function () {
+        success("us"); // Fallback to US in case of an error
+      });
+  },
+  utilsScript:
+    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // for validation
+});

@@ -31,6 +31,13 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!--phone number form--->
+    <!-- CSS for the phone input -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
   </head>
 
   <body class="portfolio-details-page index-page">
@@ -120,13 +127,52 @@
               </div>
             </div>
           </div>
-          <!-- message-->
-          <div class="row" id="contact-us">
-            <div class="col-12" id="contact-us-wrapper">
-              <h2 id="contact-title">
-                Ask For More Details Via <span>WHATSAPP</span>
-              </h2>
-              <button id="contact-btn" class="contact-us">ASK NOW</button>
+          <div class="row">
+            <div class="col-12 mt-5">
+              <h2 id="register-title">Register Now For The Training</h2>
+              <form>
+                <label for="first-name">First Name *</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  required
+                  minlength="2"
+                />
+
+                <label for="last-name">Last Name *</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  required
+                  minlength="2"
+                />
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone-number">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="country">Select Your Country *</label>
+                <select id="country" name="country" required>
+                  <option value="">Select Country of Residence</option>
+                </select>
+
+                <label for="training">Select Your Training *</label>
+                <select id="training" name="training" required>
+                  <option value="">Select Training</option>
+                </select>
+
+                <label class="checkbox">
+                  <input type="checkbox" class="box" required />
+                  I authorise Analytics Expertise company and its
+                  representatives to contact me via email.
+                </label>
+
+                <input type="submit" value="Submit" />
+              </form>
             </div>
           </div>
           <div class="row">
@@ -312,29 +358,12 @@
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+    <!-- phone number form -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <script src="trainings.js"></script>
 
     <!-- Main JS File -->
-    <script src="trainings.js"></script>
-    <script>
-      // Function to update training details on page load
-      function updateTrainingDetailsOnLoad() {
-        const trainingId = getTrainingIdFromUrl();
-        const trainingData = findTrainingById(trainingId);
-        if (trainingData) {
-          updateTrainingDetailsInHtml(trainingData);
-          const recentTrainings = findTrainingsWithTitleNot(trainingId);
-          updateRecentPostsInHtml(recentTrainings);
-        } else {
-          displayPageNotFound();
-        }
-      }
-
-      // Call updateTrainingDetailsOnLoad when the page loads
-      document.addEventListener(
-        "DOMContentLoaded",
-        updateTrainingDetailsOnLoad
-      );
-    </script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
