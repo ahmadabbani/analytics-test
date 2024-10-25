@@ -1,0 +1,53 @@
+ <!--- <div class="col-12" id="contact-us-wrapper">
+              <h2 id="contact-title">
+                Ask For More Details Via <span>WHATSAPP</span>
+              </h2>
+              <button id="contact-btn" class="contact-us">ASK NOW</button>
+            </div> --->
+
+
+
+
+
+ <form>
+              <label for="first-name">First Name *</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                required
+                minlength="2"
+              />
+
+              <label for="last-name">Last Name *</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                required
+                minlength="2"
+              />
+
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone-number">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <label for="country">Select Your Country *</label>
+              <select id="country" name="country" required>
+                <option value="">Select Country of Residence</option>
+              </select>
+
+              <label for="training">Select Your Training *</label>
+              <select id="training" name="training" required>
+                <option value="">Select Training</option>
+              </select>
+
+              <label>
+                <input type="checkbox" required /> I confirm I have a bachelor's
+                degree and speak English.
+              </label>
+
+              <input type="submit" value="Submit" />
+            </form>

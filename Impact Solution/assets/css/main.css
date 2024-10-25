@@ -1838,17 +1838,13 @@ input[type="submit"]:hover {
 
 .checkbox {
   display: flex;
-  /* Use flexbox to align the checkbox and text */
   align-items: center;
-  /* Center the checkbox and text vertically */
 }
 
 .checkbox input {
   margin: 0;
-  /* Remove margin from the checkbox */
   width: auto;
   margin-right: 5px;
-  /* Add a small space between the checkbox and the text */
 }
 
 
