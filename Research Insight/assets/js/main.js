@@ -297,4 +297,16 @@ Trust our expertise in business planning and development, research, and publicat
   document.querySelectorAll(".service-item").forEach((item, index) => {
     item.addEventListener("click", () => openModal(index));
   });
+  //contact
+  document.querySelectorAll(".contact-link").forEach((link) => {
+    link.addEventListener("click", function () {
+      document
+        .querySelectorAll(".tab-pane")
+        .forEach((pane) => pane.classList.add("d-none"));
+      const target = document.querySelector(
+        this.getAttribute("data-bs-target")
+      );
+      target.classList.remove("d-none");
+    });
+  });
 })();

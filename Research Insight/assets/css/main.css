@@ -1653,3 +1653,90 @@ section,
   margin-bottom: 0;
   font-size: 14px;
 }
+
+
+.contact .countries-row {
+  width: 100%;
+}
+
+.contact .country-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.contact #country1,
+.contact #country2,
+.contact #country3 {
+  width: 100%;
+}
+
+.contact .fade {
+  transition: opacity 0.2s ease-in;
+}
+
+.contact #country1-tab,
+.contact #country2-tab,
+.contact #country3-tab {
+  font-size: 25px;
+  padding: 8px 15px;
+  color: #7586a5;
+  border-bottom: 2px solid #e4e4e4;
+  display: flex;
+  width: fit-content !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact .contact-link.active {
+  color: #1b2950 !important;
+
+}
+
+.contact .contact-link:hover {
+  /*padding-left: 25px !important;*/
+  transform: translateX(10px);
+}
+
+@media (max-width: 992px) {
+  .contact .countries-row {
+    width: 100%;
+  }
+
+  .contact .country-list {
+    gap: 45px;
+  }
+
+  .contact .contact-link:hover {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 535px) {
+  .contact .country-list {
+    gap: 25px;
+  }
+
+  .contact #country1-tab,
+  .contact #country2-tab,
+  .contact #country3-tab {
+    font-size: 20px;
+    padding: 4px 10px;
+  }
+
+}
+
+@media (max-width: 405px) {
+  .contact .country-list {
+    gap: 15px;
+  }
+
+  .contact #country1-tab,
+  .contact #country2-tab,
+  .contact #country3-tab {
+    font-size: 18px;
+    padding: 4px 5px;
+  }
+
+}
