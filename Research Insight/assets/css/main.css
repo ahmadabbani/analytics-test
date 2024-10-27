@@ -949,28 +949,12 @@ section,
   border: 2px solid #fff;
   overflow: hidden;
   border-radius: 50px;
-  transition: 0.4s;
-}
-
-.hero .btn-get-started::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: -1;
-  transform: translateY(102%);
-  transition: 0.4s ease-in-out;
-}
-
-.hero .btn-get-started:hover::before {
-  transform: translateY(0);
+  transition: 0.7s ease;
 }
 
 .hero .btn-get-started:hover {
   color: #1b2950;
+  background-color: #fff;
 }
 
 .hero .btn-watch-video {
@@ -1657,6 +1641,7 @@ section,
 
 .contact .countries-row {
   width: 100%;
+  margin: auto;
 }
 
 .contact .country-list {

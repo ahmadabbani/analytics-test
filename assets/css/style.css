@@ -1173,6 +1173,7 @@ ul {
 
 .contact-area .countries-row {
   width: 25%;
+  margin: auto;
 }
 
 .contact-area .country-list {
