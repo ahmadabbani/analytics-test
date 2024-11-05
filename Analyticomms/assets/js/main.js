@@ -247,8 +247,7 @@
   const services = [
     {
       title: "Branding",
-      description: `Our branding services include developing a strong brand identity and positioning to ensure your brand stands out.
-       We create logos and other visual elements that represent your brand, 
+      description: `Our branding services Focus on developing a strong brand identity and positioning to ensure your brand stands out. We create logos and other visual elements that represent your brand,
        crafting taglines, slogans, and key messages that resonate with your audience and reflect your unique value proposition.`,
       icon: "bi-briefcase",
     },
@@ -277,9 +276,8 @@
     },
     {
       title: "Public Relations",
-      description: `Our public relations services include writing and distributing press releases, to announce new products, services,
-       or company milestones. We build and maintain relationships with journalists and media outlets to ensure positive media coverage,
-       and handle communication during times of crisis, to protect and manage your brand's reputation.`,
+      description: `Our public relations services include writing and distributing press releases, to announce new products, services, or company milestones. We build and maintain relationships with journalists and media outlets to ensure positive media coverage and handle communication during times of crisis,
+       to protect and Uphold your brand's reputation.`,
       icon: "bi-briefcase",
     },
     {
@@ -298,16 +296,14 @@
     },
     {
       title: "Analytics and Reporting",
-      description: `We monitor and analyze the performance of your marketing campaigns, using advanced analytical tools.
-       Our reporting services provide regular reports on key metrics and insights,
-       guiding future marketing strategies, and ensuring your campaigns are effective and aligned with your business goals.`,
+      description: `We monitor and analyze the performance of your marketing campaigns using advanced analytical tools. Our reporting services provide regular Updates on key metrics and insights, guiding future marketing strategies,
+       and ensuring your campaigns are effective and aligned with your business goals.`,
       icon: "bi-briefcase",
     },
     {
       title: "Consulting and Strategy",
-      description: `Our consulting services include developing comprehensive marketing plans tailored to your business goals and budget.
-       We provide ongoing consultation and expert advice to adjust strategies based on market change and business needs,
-       ensuring that your marketing efforts are always on the right track.`,
+      description: `Our consulting services include developing comprehensive marketing plans tailored to your business goals and budget. We Offer
+ongoing consultation and expert advice to adjust strategies based on market changes and business needs, ensuring that your marketing efforts remain aligned with your objectives`,
       icon: "bi-briefcase",
     },
   ];

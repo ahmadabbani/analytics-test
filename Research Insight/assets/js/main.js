@@ -249,34 +249,29 @@
   const services = [
     {
       title: "Business Development and Planning Expertise",
-      description: `At Analytics, we excel at crafting tailored strategies to fuel your business's growth and success.
-       Our seasoned consultants provide the insights and support needed to navigate challenges, seize opportunities, and unlock your full potential.
-        Whether you're looking to define a clear business roadmap, optimize operations, or supercharge your marketing efforts, our expertise is your competitive advantage.
-       We measure our success by your success, and we're here to guide you every step of the way.`,
+      description: `At Analytics, we specialize in 
+ crafting tailored strategies to fuel your business's growth and success. Our seasoned consultants Offer
+ the insights and support needed to navigate challenges, seize opportunities, and unlock your full potential. You're defining a clear business roadmap, optimizing operations, or supercharging your marketing efforts, our expertise Becomes your competitive advantage. We measure our success by your success, and we're here to guide you every step of the way.`,
       icon: "bi-briefcase",
     },
     {
       title: "Sociopolitical Research",
-      description: `Stay at the forefront of societal trends and issues with our socio political research services. Our team of skilled researchers brings you comprehensive and objective analysis on a wide range of topics, including social justice, human rights, governance, and public policy.
-       Our in-depth reports and studies equip you with the knowledge and understanding necessary to navigate the complex sociopolitical environment and make informed decisions that align with your values.`,
+      description: `Stay Ahead of societal trends and issues with our socio-political research services. Our team of skilled researchers brings you comprehensive and objective analysis on a wide range of topics, including social justice, human rights, governance, and public policy. Our in-depth reports and studies equip you with the knowledge needed to navigate the complex sociopolitical environment and make informed decisions that align with your values.`,
       icon: "bi-briefcase",
     },
     {
       title: "Legal Research and Support",
-      description: `Navigating the legal landscape can be a daunting task, but our legal research services are here to support you.
-       We conduct extensive research on diverse legal areas, ranging from constitutional law to international regulations,
-        providing you with authoritative insights and analysis. Our publications cover key legal developments,
-       case studies, and legal opinions, helping you stay abreast of the latest legal trends and precedents.
-       The Analytics Team also provides legal support and consultation through our lawyers.`,
+      description: `Navigating the legal landscape can be daunting, but our legal research services are here to support you. We conduct extensive research across diverse legal areas, ranging from constitutional law to international regulations, providing you with authoritative insights and analysis. Our publications cover key legal developments, case studies, and legal opinions, Keeping you informed about the latest legal trends and precedents. The Analytics Team also provides legal support and consultation through our lawyers.`,
       icon: "bi-briefcase",
     },
     {
       title: "Publications",
-      description: `Our high-quality publications are designed to inform and inspire. We deliver well-researched articles,
-       whitepapers, and reports on sociopolitical and legal topics, offering nuanced perspectives and thought-provoking insights.
-        Whether you're an academic, legal professional, policymaker, or simply someone interested in staying informed, our publications
-        are a valuable resource for expanding your knowledge and contributing to meaningful discussions.
-Trust our expertise in business planning and development, research, and publications to keep you informed, empowered, and engaged with the world around you. Stay ahead of the curve with our comprehensive insights and thought leadership.`,
+      description: `Our high-quality publications are designed to inform and inspire. We deliver well-researched articles, whitepapers, and reports on sociopolitical and legal topics, offering nuanced perspectives and thought-provoking insights. Whether you're an academic, legal professional, policymaker, or simply someone eager to stay informed, our publications are a valuable resource for expanding your knowledge and Fostering meaningful discussions. Trust our expertise in business planning and development, research, and publications to keep you informed, empowered, and engaged with the world around you. Stay ahead of the curve with our comprehensive insights and thought leadership.`,
+      icon: "bi-briefcase",
+    },
+    {
+      title: `Empowering Organizations for a Sustainable Future Planning`,
+      description: `We Help organizations develop robust plans that align with their strategic goals. Our expertise ensures that every project is meticulously Designed to achieve maximum impact.`,
       icon: "bi-briefcase",
     },
   ];
