@@ -983,6 +983,24 @@ section,
   }
 }
 
+@media (max-width: 380px) {
+  .hero .content .why-box .more-btn {
+    padding: 5px 20px 5px 20px;
+  }
+
+  .hero .content .why-box .more-btn i {
+    font-size: 12px;
+  }
+
+  .hero .btn-watch-video {
+    font-size: 14px;
+  }
+
+  .hero .btn-watch-video i {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero .content .icon-box {
     padding-top: 20px;
