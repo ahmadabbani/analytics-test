@@ -219,6 +219,12 @@
   // Get all elements with class 'service-box'
   const serviceBoxes = document.querySelectorAll(".service-box");
 
+  // Function to preload an image
+  function preloadImage(src) {
+    const img = new Image();
+    img.src = src;
+  }
+
   // Function to handle hover effects for desktop
   function setupDesktopInteractions(
     box,
@@ -235,7 +241,7 @@
     });
   }
 
-  // Set images based on index
+  // Set images based on index and preload hover images
   serviceBoxes.forEach((box, index) => {
     const img = box.querySelector(".hover-image");
     let hoverImagePath;
@@ -251,6 +257,9 @@
       hoverImagePath = "assets/img/newweb/comms blue.png";
       defaultImagePath = "assets/img/newweb/comms white.png";
     }
+
+    // Preload the hover image
+    preloadImage(hoverImagePath);
 
     // Check screen width and set up interactions accordingly
     function setupInteractions() {
