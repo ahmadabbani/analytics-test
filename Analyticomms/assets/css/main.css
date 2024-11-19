@@ -369,7 +369,7 @@ p {
   height: 3px;
   background-color: #fff;
   margin: 5px;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 
 #header.header-scrolled .mobile-nav-toggle div {
@@ -816,8 +816,6 @@ section,
   position: relative;
 }
 
-
-
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -1013,6 +1011,12 @@ section,
 
   .hero .welcome h2 {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero img {
+    object-position: left;
   }
 }
 
