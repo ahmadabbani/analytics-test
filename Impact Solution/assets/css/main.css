@@ -1025,7 +1025,7 @@ section,
   padding: 1rem 1rem 0.5rem 1rem;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 3px 3px 10px rgb(117, 134, 165, 0.3);
+  box-shadow: 5px 5px 7px rgba(48, 50, 53, 0.2);
 }
 
 .services .service-item .service-content {
