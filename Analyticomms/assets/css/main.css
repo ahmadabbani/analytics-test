@@ -1095,7 +1095,7 @@ section,
   border-radius: 10px;
   cursor: pointer;
   /*box-shadow: 2px 2px 10px rgb(117, 134, 165, 0.4);*/
-  box-shadow: 2px 2px 2px 2px rgb(27, 41, 80, 0.3);
+  box-shadow: 5px 5px 7px rgba(48, 50, 53, 0.2);
 }
 
 .services .service-item .service-content {
